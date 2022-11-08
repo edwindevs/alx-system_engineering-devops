@@ -7,7 +7,7 @@ add-apt-repository -y ppa:vbernat/haproxy-2.6
 apt-get -y install haproxy
 
 # configure the load balancer
-DOMAIN='edwindevs.tech/'
+DOMAIN='edwindevs.tech'
 INITIALIZATION='/etc/default/haproxy'
 CONFIG='/etc/haproxy/haproxy.cfg'
 LB_CONFIG=\
